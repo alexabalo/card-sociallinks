@@ -72,6 +72,7 @@ button{
     cursor: pointer;
 }
 
+
 button:hover{
     background-color: hsl(75, 94%, 57%);
     color: #000;
@@ -81,7 +82,13 @@ button:hover{
     margin: 6px;
 }
 
-@media (max-width: 1440px){
+@media (min-width: 768px){
+    .container{
+        width: 30%;
+    }
+}
+
+@media (min-width: 1440px){
     
     .container{
         width: 30%;
